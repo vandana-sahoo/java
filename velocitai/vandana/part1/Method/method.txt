@@ -1,0 +1,41 @@
+*what is method ?
+method is set of instruction which is used to perform some specific task if we call it .
+
+Syntax---
+
+[access modifier] [modifier] return type methodName([formal argument])
+  {
+       //instructions
+   }
+
+
+*method is a combination of method decleration and method block/implementation/body.
+
+1. Method definition
+    a. method decleration.
+    b. method body/implementation/block.
+
+2. Method Decleration 
+    a. access modifier.
+    b. modifier. 
+    c. Return Type.
+    d. Method Signature.
+
+3. Method Signature
+    a. method name 
+    b. formal argument
+
+Access modifier ---
+access modifier are used to change the accessibility of a member class.
+
+we have four levels/types of access modifier .
+-public
+-private 
+-protected
+- default
+
+Based on the number of argument mrthod are two types--
+1. no-argument method
+2. Parameterized method
+    a. formal 
+    b.actual
