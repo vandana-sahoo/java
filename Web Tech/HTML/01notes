@@ -1,0 +1,199 @@
+HTML- html stand for hyper text markup language.
+Use - it gives the strucure of any web page and web application.
+introduced by tim berners -lee.
+created in 1991 and released in 1993.
+current version is html5
+html file use the .html extension
+
+Static Content: .html files typically contain static content, but they can be used in conjunction with CSS (for styling) and JavaScript (for interactivity) to create dynamic and interactive web pages.
+
+<DOCTYPE html> 
+- specify the html version
+-broweers to render the content correctly
+ 
+
+<HtML> 
+-root element of html doc
+- encloses all the content of the html document 
+
+<head>
+- contain meta information about the document(tilte,character set , linked stylesheet),
+- not displayed on the webpage itself.
+- some of meta tags are self closing and some are pair closing. 
+
+<body> 
+- contain the content which need to be displaed
+
+
+Types of html tags -> pair tag, self closing tag.
+
+Attribute -> additinal info about the element.
+key - value pair me hota hai.
+eg- src, title, href, lang etc
+
+Types of Attribute ->
+-Global attribute.
+-Element Specific attribute.
+
+global -> provide functionality and styling across diffrent elements.
+id,class use any where in the file.
+
+element specific -> providing unique functinality to those element.
+eg - href ,src are diffrent for every where.
+- core attributes -> id,class,style,title.
+
+Formatting tags- 
+<b>
+<strong>
+<i>
+<em>
+<u>
+<ins>
+<del>
+<strike>
+<sub>
+<sup>
+
+Semantic Tag-
+<heder>
+<nav>
+<sectiom>
+<main>
+<article>
+<aside>
+<detail>
+<figcaption>
+<figure>
+<footer>
+<summary>
+<time>
+<mark>
+
+List-> 4-order, unorder, nested, description/definition
+default order list type is number.
+default order list type of unorder list is bullet.
+<dd> and <dt> tags are use inside <dl> tag
+we use multiple dd dt.
+
+Table Tag- 
+<table> - contain entire table
+<thead> - head section of table colmn heading
+<tbody> - contain main contant (row of data)
+<tr> - create the table only row by row 
+<th> - tale header cell ,use column heading
+<td> - table data cell , used for regilar data cell
+
+Attribute in table- rowspan ,colspan
+Rowspan- mering two or more row
+cannot use tr tag
+only td and th
+
+Colspan- merging two or more than two columns
+- cannot use tr or table tag
+- only td and th
+
+Cell spacing- inside table tag to make space between two cell
+
+Cell padding - use inside table tag to make space between text and cell border (space inside cell)
+
+
+Elements- 
+-> block- take full width
+modified h and w
+
+-> inline - take contant width only
+we cannot have modified h and w
+
+-> inline block - 
+take contant width only
+we can modified h and w
+
+Media Tag-
+<audio>
+<video>
+<iframe>
+QR scan
+
+Anchor Tag
+- Use for navigation 
+- create hyperlink allow user to navigate one page to another or section within the same page.
+ 
+  - default color
+  default -blue
+  active - red
+  visited - purple
+
+  color can be customised using css
+target anchor tag - blank , self , parent , top
+
+FOR ICON IN Tag
+CDN - content delivery network
+- group of several server delivers resources to various network.
+
+- font awesome 
+- font awesome cdn (copy link tag)
+
+FORM 
+- uswer input is collected for submission to server .
+- default behavior is to refresh the page after submission.
+
+*Attributes: 
+-action - specifies where to send the form data when submitted .
+-method - specifies the http method used to send form data(get ,post, or dialog)
+
+*Value: 
+-get : retrives data from the server. used for fetching data , like logging in.
+-post: Send data to server .used for submitting data,like signing up.
+-dialog:used for popup form,often in js frameworks. 
+
+*Label and Input 
+use <label> to create a label for form elements.
+<input> is used for user input fields within the form.
+
+*Attribute in form tag
+inside input tag
+- type - which type of input field is to be taken 
+- name - name  of input field to transfer the data to the server (data is sent in key value pair) 
+- value - value of the field thet need to be send to the browser. 
+- id -for unique identity for styling .
+
+Inside label - 
+for - specific the id of the form control that label is bound to.
+
+*Additional Label tag
+1. enctype: for transferring huge files (multipart,application,text)
+2. novalidate attribute : to disable buikt in form validation.
+ **input tag have 22 values
+
+ <Select> and <Option> element provide a flexible way to create dropdown menues for selecting options from a list.
+
+ <datalist> to provide and autocomplete feature.
+ user will see a drop down list of pre-defined options as they input data
+
+--Validation Attributes- 
+placeholder
+Required
+Pattern
+Min
+Max
+Step
+Readonly
+Disabled
+Maxlength
+MinLength
+Size
+Selected
+
+<fieldset> - group releated form element together,providing stucture and organization.
+enclose a set of form element (<input>, <textare>, <Select>) into a unit 
+<legend> - provide a title or caption for the <fieldset> elements
+describe the purpose or category of the grouped form element.
+
+Additional info--
+making scrolling text:
+Marquee Tag-
+-behaviour
+value = scroll,slide,alternate
+- direction
+value = left, right, up , down.
+
